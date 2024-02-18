@@ -86,6 +86,25 @@
             right: 0;
             pointer-events: none;
         }
+
+         .container2 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .texto {
+            flex: 1;
+            padding: 20px;
+        }
+        .imagem {
+            flex: 1;
+            padding: 20px;
+        }
+        .imagem img {
+            width: 100%; /* Defina aqui a largura desejada para a imagem */
+            height: auto;
+        }
     </style>
 </head>
 
@@ -95,9 +114,16 @@
         <img src="https://raw.githubusercontent.com/felipesoart/CapistranoDedetizadora/main/top1.png" alt="Imagem"
             class="img1" />
         <div class="conteudo">
-            <div class="container">
-               <h1>Quem Somos</h1>
-               <label>boa tarde,</label>
+            <div class="container2">
+                <div class="texto">
+                    <h1>Quem Somos</h1>
+                    <p>Somos a Capistrano Dedetização, uma empresa comprometida em fornecer serviços de qualidade na área de controle de pragas. Com anos de experiência, nossa equipe altamente qualificada utiliza os métodos mais eficazes e seguros para eliminar pragas e garantir um ambiente saudável para nossos clientes.</p>
+                    <p>Nosso objetivo é oferecer soluções personalizadas para atender às necessidades específicas de cada cliente, sempre priorizando a segurança, eficácia e sustentabilidade em nossos serviços.</p>
+                    <p>Conte conosco para proteger o seu lar ou empresa contra pragas indesejadas. Entre em contato conosco hoje mesmo para saber mais sobre nossos serviços e agendar uma consulta.</p>
+                </div>
+                <div class="imagem">
+                    <img src="https://raw.githubusercontent.com/felipesoart/CapistranoDedetizadora/main/certificado.png" alt="Capistrano Dedetização">
+                </div>
             </div>
         </div>        
         
